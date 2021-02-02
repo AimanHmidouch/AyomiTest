@@ -1,0 +1,10 @@
+version: '3'
+services:
+  playground-web-backend:
+    build: .
+    image: playground-web-backend:latest
+    command: python Django/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/back
+    ports:
+      - 8000:8000
