@@ -1,16 +1,16 @@
 # AyomiTest
 
-Pour le moment Docker ne marche pas
+Currently Docker isn't running yet
 
-Pour tester :
-lancer le backend dans django:
-  cd Django/
-  python manage.py runserver
+To test : 
+Run the backend on django:
+ - cd Django/
+ - python manage.py runserver
   
-lancer le front :
-  cd client/
-  npm install
-  npm start
+Run the front
+ - cd client/
+ - npm install
+ - npm start
   
   
 once running, click on register to create a new user
